@@ -152,7 +152,7 @@
       </server>
    </config>
 
-   <config evaluator="string-compare" condition="Languages">
+   <config evaluator="string-compare" condition="Languages" replace="true">
       <!-- the list of available language files -->
       <languages>
          <language locale="en_US">English</language>
